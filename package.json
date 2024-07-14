@@ -1,0 +1,30 @@
+{
+  "name": "task_mananger",
+  "version": "1.0.0",
+  "description": "full stack task mananger web application",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NqobileRSA/Task_Mananger.git"
+  },
+  "keywords": [
+    "task-manager"
+  ],
+  "author": "Nqobile Ngobeni",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NqobileRSA/Task_Mananger/issues"
+  },
+  "homepage": "https://github.com/NqobileRSA/Task_Mananger#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.1",
+    "nodemon": "^3.1.4"
+  }
+}
